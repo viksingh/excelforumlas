@@ -1,0 +1,2 @@
+=TEXT(VLOOKUP(A2,CurrEBSDec19!$A$2:$P$12589,16,FALSE),"dd/mm/yyyy")
+
