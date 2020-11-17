@@ -1,0 +1,44 @@
+=VLOOKUP("lion", A2:B6, 2, FALSE)
+
+=VLOOKUP(TRIM(N2), ReceiverXlink!$A$2:$E$11725, 5, FALSE)
+
+L, N
+
+
+
+=VLOOKUP(TRIM(L2), SenderXlink!$A$8577:$E$20301, 5, FALSE)
+
+
+=IFERROR(VLOOKUP(TRIM(L2, SenderXlink!$A$8577:$E$20301, 5, FALSE), IFERROR(VLOOKUP(A2, West!$A$2:$C$6, 2, FALSE), "Not found"))
+
+
+
+=VLOOKUP(TRIM(L2), SenderXlink!$A$2:$E$8575, 5, FALSE)
+
+Linux
+
+
+
+
+=IFERROR(VLOOKUP(TRIM(N2), ReceiverXlink!$A$2:$E$11725, 5, FALSE), IFERROR(VLOOKUP(TRIM(L2), SenderXlink!$A$2:$E$8575, 5, FALSE), ""))
+
+=IFERROR(VLOOKUP(TRIM(N2), ReceiverXlink!$A$2:$E$11725, 5, FALSE), IFERROR(VLOOKUP(TRIM(L2), SenderXlink!$A$2:$E$8575, 5, FALSE), ""))
+
+
+
+=IFERROR(VLOOKUP(TRIM(L2), ReceiverXlink!$A$2:$E$11725, 5, FALSE), IFERROR(VLOOKUP(TRIM(L2), SenderXlink!$A$2:$E$8575, 5, FALSE), ""))
+
+=IFERROR(VLOOKUP(TRIM(N2), ReceiverXlink!$A$2:$E$11725, 5, FALSE), IFERROR(VLOOKUP(TRIM(N2), SenderXlink!$A$2:$E$8575, 5, FALSE), ""))
+
+
+=IF(B1>10, "Good")
+
+
+=IF(ISNUMBER(SEARCH(".",text)), "Y", "")
+
+
+P,R
+
+
+
+=IF(OR(AND(AC7="Windows",AF7="Y"), AND(AD7="Windows",AE7="Y") ), "Y", "")
